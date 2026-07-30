@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arclat-ai/.github/main/profile/assets/arclat-logo.png" alt="Arclat" width="220">
+<img src="https://raw.githubusercontent.com/arclat-ai/.github/main/profile/assets/arclat-logo.png" alt="Arclat" width="96">
 
 # Arclat
 
 ### We build the tools that make AI agents fast, cheap, and reliable.
 
 Arclat is a studio shipping focused developer tools for teams building AI agents.
-Our tools live where engineers already work — inside the editor and the command line.
+Our tools live where engineers already work: inside the editor and the command line.
 
 [Website](https://arclat.com) · [Relay](https://relay.arclat.com) · [LinkedIn](https://www.linkedin.com/company/arclat/) · [Instagram](https://www.instagram.com/arclat.ai/)
 
@@ -17,7 +17,7 @@ Our tools live where engineers already work — inside the editor and the comman
 
 ## What we're shipping
 
-### 🟢 [Relay](https://github.com/arclat-ai/relay-mcp) — live
+### 🟢 [Relay](https://github.com/arclat-ai/relay-mcp) (live)
 
 **Find the latency in your AI agent, before your users do.**
 
@@ -26,7 +26,7 @@ latency bottlenecks. It reads your real source with an AST engine, ranks issues 
 time they cost, runs a verification pass to drop false positives, and can apply fixes
 directly from Claude Code.
 
-No account. No API key. No backend — it runs entirely on your machine.
+No account. No API key. No backend. It runs entirely on your machine.
 
 ```bash
 claude mcp add relay -- uvx --from relay-arclat relay-mcp
@@ -37,7 +37,7 @@ claude mcp add relay -- uvx --from relay-arclat relay-mcp
 ### ⚪ In the works
 
 We ship deliberately, one focused tool at a time. The next products for teams running
-AI agents in production are in design — [details soon](https://arclat.com/coming-soon).
+AI agents in production are in design. [Details soon](https://arclat.com/coming-soon).
 
 ---
 
@@ -58,7 +58,7 @@ than ten that almost do.
 
 Relay is open source and we read every issue. Start with
 [CONTRIBUTING.md](https://github.com/arclat-ai/relay-mcp/blob/main/CONTRIBUTING.md),
-or open a discussion if you've found agent latency our detectors miss — those reports
+or open a discussion if you've found agent latency our detectors miss. Those reports
 are the single most useful thing you can send us.
 
 Security reports go to the process in
