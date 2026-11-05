@@ -14,13 +14,13 @@ Arclat builds high-impact applied AI software for complex enterprise workflows a
 
 ---
 
-## 🏛️ Flagship Enterprise Platform
+## Flagship Enterprise Platform
 
-### [TenderDesk](https://tender.arclat.com) — AI Procurement & Tender Intelligence
+### <img src="https://raw.githubusercontent.com/arclat-ai/.github/main/profile/assets/tenderdesk-icon.png" width="24" height="24" alt="TenderDesk" valign="middle"> [TenderDesk](https://tender.arclat.com): AI Procurement & Tender Intelligence
 
-> **Production Platform** · Built for contractors, engineering firms, and procurement teams bidding on Pakistani public contracts.
+> **Production Platform** - Built for contractors, engineering firms, and procurement teams bidding on Pakistani public contracts.
 
-Public procurement moves fast with complex compliance rules, high non-refundable bid securities, and hundreds of daily notices scattered across federal and provincial gateways. **TenderDesk** automates the entire tender lifecycle—from portal discovery to contract award.
+Public procurement moves fast with complex compliance rules, high non-refundable bid securities, and hundreds of daily notices scattered across federal and provincial gateways. **TenderDesk** automates the entire tender lifecycle, from portal discovery to contract award.
 
 ```
 Multi-Source Ingest ──► Pass 1: Deterministic Check ──► Pass 2: AI Adjudication ──► 10-Stage Pipeline
@@ -29,7 +29,7 @@ Multi-Source Ingest ──► Pass 1: Deterministic Check ──► Pass 2: AI A
 
 - **Continuous Multi-Source Ingestion:** Real-time, deduplicated notice ingestion from federal PPRA, EPADS, National Highway Authority (NHA), WAPDA, NESPAK, and provincial gateways.
 - **Two-Pass Eligibility Engine:**
-  - *Pass 1 (Deterministic):* Verifies non-negotiable gates—PEC category limits, annual turnover thresholds, and active NTN/tax status.
+  - *Pass 1 (Deterministic):* Verifies non-negotiable gates: PEC category limits, annual turnover thresholds, and active NTN/tax status.
   - *Pass 2 (AI Adjudication):* Deep scope adjudication for complex Joint Venture (JV) allowances, specialist scope codes (e.g., CE-04, EE-01), and project volume match.
 - **10-Stage Lifecycle Pipeline:** Tracks bids from *Discovered* → *Under Review* → *Technical Bid* → *Financial Bid* → *Submitted* → *Awarded*.
 - **Native In-Engine PDF Parsing:** Native on-instance text extraction with zero token waste on text-embedded notices, plus multimodal visual extraction for scanned authority addenda.
@@ -39,15 +39,15 @@ Multi-Source Ingest ──► Pass 1: Deterministic Check ──► Pass 2: AI A
 
 ---
 
-## 🛠️ Open-Source Agent Tooling Suite
+## Open-Source Agent Tooling Suite
 
 Lightweight, focused tools for engineers building, optimizing, and securing autonomous AI agent systems.
 
-### 🌐 [WebMCP Bridge](https://github.com/arclat-ai/webmcp-bridge) (live)
+### <img src="https://raw.githubusercontent.com/arclat-ai/.github/main/profile/assets/webmcp-icon.png" width="22" height="22" alt="WebMCP" valign="middle"> [WebMCP Bridge](https://github.com/arclat-ai/webmcp-bridge) (live)
 
 **Headless in-page browser bridge for Claude & MCP agents.**
 
-WebMCP connects in-page tool definitions (`window.navigator.modelContext`) directly to Claude Desktop, Claude Code, and Model Context Protocol agents. It runs a silent, headless Playwright Chromium instance over stdio JSON-RPC—transforming web applications into queryable agent tools without extensions, manual scrapers, or proprietary SDKs.
+WebMCP connects in-page tool definitions (`window.navigator.modelContext`) directly to Claude Desktop, Claude Code, and Model Context Protocol agents. It runs a silent, headless Playwright Chromium instance over stdio JSON-RPC, transforming web applications into queryable agent tools without extensions, manual scrapers, or proprietary SDKs.
 
 - **Zero Browser Extensions:** No unpacked extensions to sideload, no manifest permission friction, and no user profile pollution.
 - **Sub-5ms Execution Latency:** Direct in-memory page evaluation via Chromium DevTools Protocol (CDP).
@@ -63,7 +63,7 @@ claude mcp add webmcp -- npx -y @arclat-ai/webmcp-bridge connect http://localhos
 
 ---
 
-### 🟢 [Relay](https://github.com/arclat-ai/relay-mcp) (live)
+### <img src="https://raw.githubusercontent.com/arclat-ai/.github/main/profile/assets/relay-icon.png" width="22" height="22" alt="Relay" valign="middle"> [Relay](https://github.com/arclat-ai/relay-mcp) (live)
 
 **Find the latency in your AI agent, before your users do.**
 
@@ -82,7 +82,7 @@ claude mcp add relay -- uvx --from relay-arclat relay-mcp
 
 ---
 
-### 🟢 [mcpie](https://github.com/arclat-ai/mcpie) (live)
+### <img src="https://raw.githubusercontent.com/arclat-ai/.github/main/profile/assets/mcpie-icon.png" width="22" height="22" alt="mcpie" valign="middle"> [mcpie](https://github.com/arclat-ai/mcpie) (live)
 
 **npm audit for the Model Context Protocol.**
 
@@ -113,9 +113,9 @@ npx @arclat-ai/mcpie scan
 
 All agent tools in the suite are open source and actively maintained:
 
-- **WebMCP**: [CONTRIBUTING.md](https://github.com/arclat-ai/webmcp-bridge/blob/main/CONTRIBUTING.md) — report bridge bugs or submit protocol adaptors.
-- **Relay**: [CONTRIBUTING.md](https://github.com/arclat-ai/relay-mcp/blob/main/CONTRIBUTING.md) — report latency patterns our AST scanner misses.
-- **mcpie**: [CONTRIBUTING.md](https://github.com/arclat-ai/mcpie/blob/main/CONTRIBUTING.md) — submit security heuristics or false-positive reports.
+- **WebMCP**: [CONTRIBUTING.md](https://github.com/arclat-ai/webmcp-bridge/blob/main/CONTRIBUTING.md): report bridge bugs or submit protocol adaptors.
+- **Relay**: [CONTRIBUTING.md](https://github.com/arclat-ai/relay-mcp/blob/main/CONTRIBUTING.md): report latency patterns our AST scanner misses.
+- **mcpie**: [CONTRIBUTING.md](https://github.com/arclat-ai/mcpie/blob/main/CONTRIBUTING.md): submit security heuristics or false-positive reports.
 
 Security vulnerability reports should be submitted following the instructions in each repository's `SECURITY.md` or emailed privately to [team@arclat.com](mailto:team@arclat.com).
 
